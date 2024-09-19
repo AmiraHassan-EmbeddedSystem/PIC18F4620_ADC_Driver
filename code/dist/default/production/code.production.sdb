@@ -1,0 +1,487 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"12 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/ADC/mcal_adc.c
+[e E2558 . `uc
+ADC_CHANNEL_AN0 0
+ADC_CHANNEL_AN1 1
+ADC_CHANNEL_AN2 2
+ADC_CHANNEL_AN3 3
+ADC_CHANNEL_AN4 4
+ADC_CHANNEL_AN5 5
+ADC_CHANNEL_AN6 6
+ADC_CHANNEL_AN7 7
+ADC_CHANNEL_AN8 8
+ADC_CHANNEL_AN9 9
+ADC_CHANNEL_AN10 10
+ADC_CHANNEL_AN11 11
+ADC_CHANNEL_AN12 12
+]
+[e E2573 . `uc
+ADC_SELECT_ANALOG_ALL_BIT 0
+ADC_SELECT_DIGITAL_ALL_BIT 15
+ADC_SELECT_AN11_BIT 3
+ADC_SELECT_AN10_BIT 4
+ADC_SELECT_AN9_BIT 5
+ADC_SELECT_AN8_BIT 6
+ADC_SELECT_AN7_BIT 7
+ADC_SELECT_AN6_BIT 8
+ADC_SELECT_AN5_BIT 9
+ADC_SELECT_AN4_BIT 10
+ADC_SELECT_AN3_BIT 11
+ADC_SELECT_AN2_BIT 12
+ADC_SELECT_AN1_BIT 13
+ADC_SELECT_AN0_BIT 14
+]
+[e E2589 . `uc
+ADC_AQUISION_TAD0 0
+ADC_AQUISION_TAD2 1
+ADC_AQUISION_TAD4 2
+ADC_AQUISION_TAD6 3
+ADC_AQUISION_TAD8 4
+ADC_AQUISION_TAD10 5
+ADC_AQUISION_TAD12 6
+ADC_AQUISION_TAD14 7
+ADC_AQUISION_TAD16 8
+ADC_AQUISION_TAD18 9
+ADC_AQUISION_TAD20 10
+]
+[e E2602 . `uc
+ADC_RC_FOSC_DIV_2 0
+ADC_RC_FOSC_DIV_8 1
+ADC_RC_FOSC_DIV_32 2
+ADC_RC_FOSC_DIV_4 4
+ADC_RC_FOSC_DIV_16 5
+ADC_RC_FOSC_DIV_64 6
+]
+"34 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/GPIO/hal_gpio.c
+[e E2510 . `uc
+GPIO_OUTPUT 0
+GPIO_INPUT 1
+]
+"53
+[e E2514 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"119
+[e E2493 . `uc
+GPIO_PORTA 0
+GPIO_PORTB 1
+GPIO_PORTC 2
+GPIO_PORTD 3
+GPIO_PORTE 4
+]
+"26 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\project.c
+[e E2558 . `uc
+ADC_CHANNEL_AN0 0
+ADC_CHANNEL_AN1 1
+ADC_CHANNEL_AN2 2
+ADC_CHANNEL_AN3 3
+ADC_CHANNEL_AN4 4
+ADC_CHANNEL_AN5 5
+ADC_CHANNEL_AN6 6
+ADC_CHANNEL_AN7 7
+ADC_CHANNEL_AN8 8
+ADC_CHANNEL_AN9 9
+ADC_CHANNEL_AN10 10
+ADC_CHANNEL_AN11 11
+ADC_CHANNEL_AN12 12
+]
+[e E2573 . `uc
+ADC_SELECT_ANALOG_ALL_BIT 0
+ADC_SELECT_DIGITAL_ALL_BIT 15
+ADC_SELECT_AN11_BIT 3
+ADC_SELECT_AN10_BIT 4
+ADC_SELECT_AN9_BIT 5
+ADC_SELECT_AN8_BIT 6
+ADC_SELECT_AN7_BIT 7
+ADC_SELECT_AN6_BIT 8
+ADC_SELECT_AN5_BIT 9
+ADC_SELECT_AN4_BIT 10
+ADC_SELECT_AN3_BIT 11
+ADC_SELECT_AN2_BIT 12
+ADC_SELECT_AN1_BIT 13
+ADC_SELECT_AN0_BIT 14
+]
+[e E2589 . `uc
+ADC_AQUISION_TAD0 0
+ADC_AQUISION_TAD2 1
+ADC_AQUISION_TAD4 2
+ADC_AQUISION_TAD6 3
+ADC_AQUISION_TAD8 4
+ADC_AQUISION_TAD10 5
+ADC_AQUISION_TAD12 6
+ADC_AQUISION_TAD14 7
+ADC_AQUISION_TAD16 8
+ADC_AQUISION_TAD18 9
+ADC_AQUISION_TAD20 10
+]
+[e E2602 . `uc
+ADC_RC_FOSC_DIV_2 0
+ADC_RC_FOSC_DIV_8 1
+ADC_RC_FOSC_DIV_32 2
+ADC_RC_FOSC_DIV_4 4
+ADC_RC_FOSC_DIV_16 5
+ADC_RC_FOSC_DIV_64 6
+]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"12 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/ADC/mcal_adc.c
+[v _ADC_Init ADC_Init `(uc  1 e 1 0 ]
+"94
+[v _ADC_StartConversion ADC_StartConversion `(uc  1 e 1 0 ]
+[v i2_ADC_StartConversion ADC_StartConversion `(uc  1 e 1 0 ]
+"119
+[v _ADC_GetConversionResult ADC_GetConversionResult `(uc  1 e 1 0 ]
+"143
+[v _ADC_GetConversion_Blocking ADC_GetConversion_Blocking `(uc  1 e 1 0 ]
+"161
+[v _ADC_StartConversionInterrupt ADC_StartConversionInterrupt `(uc  1 e 1 0 ]
+"176
+[v _adc_input_channel_port_configure adc_input_channel_port_configure `T(v  1 s 1 adc_input_channel_port_configure ]
+[v i2_adc_input_channel_port_configure adc_input_channel_port_configure `T(v  1 s 1 i2_adc_input_channel_port_configure ]
+"237
+[v _adc_voltage_reference adc_voltage_reference `T(v  1 s 1 adc_voltage_reference ]
+"254
+[v _adc_result_format adc_result_format `T(v  1 s 1 adc_result_format ]
+"272
+[v _ISR_ADC ISR_ADC `(v  1 e 1 0 ]
+"16 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/GPIO/hal_gpio.c
+[v _gpio_pin_direction_initialize gpio_pin_direction_initialize `(uc  1 e 1 0 ]
+"53
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+"26 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/INTERRUPT/manage_interrupt.c
+[v _InterruptManagerHigh InterruptManagerHigh `IIH(v  1 e 1 0 ]
+"37 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\project.c
+[v _main main `(v  1 e 1 0 ]
+"52
+[v _initialization initialization `(v  1 e 1 0 ]
+"56
+[v _app_adc app_adc `(v  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8\pic\include\proc\pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S186 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"2519
+[s S195 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S199 . 1 `S186 1 . 1 0 `S195 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES199  1 e 1 @3997 ]
+[s S216 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2596
+[s S225 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S229 . 1 `S216 1 . 1 0 `S225 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES229  1 e 1 @3998 ]
+[s S152 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"4394
+[s S157 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S164 . 1 `S152 1 . 1 0 `S157 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES164  1 e 1 @4032 ]
+[s S312 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"4469
+[s S315 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S322 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S327 . 1 `S312 1 . 1 0 `S315 1 . 1 0 `S322 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES327  1 e 1 @4033 ]
+[s S84 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4573
+[s S87 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S91 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S98 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S101 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S104 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S107 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S110 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S113 . 1 `S84 1 . 1 0 `S87 1 . 1 0 `S91 1 . 1 0 `S98 1 . 1 0 `S101 1 . 1 0 `S104 1 . 1 0 `S107 1 . 1 0 `S110 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES113  1 e 1 @4034 ]
+"4655
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4662
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S246 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6406
+[s S255 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S264 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S268 . 1 `S246 1 . 1 0 `S255 1 . 1 0 `S264 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES268  1 e 1 @4082 ]
+"4 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/ADC/mcal_adc.c
+[v _InterruptHandler InterruptHandler `*.37(v  1 e 2 0 ]
+"11 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/GPIO/hal_gpio.c
+[v _tris_registers tris_registers `[5]*.39VEuc  1 e 10 0 ]
+"12
+[v _port_registers port_registers `[5]*.39VEuc  1 e 10 0 ]
+"13
+[v _lat_registers lat_registers `[5]*.39VEuc  1 e 10 0 ]
+"21 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\project.c
+[v _flag_adc flag_adc `VEuc  1 e 1 0 ]
+"22
+[v _adc_res1 adc_res1 `us  1 e 2 0 ]
+[v _adc_res2 adc_res2 `us  1 e 2 0 ]
+[v _adc_res3 adc_res3 `us  1 e 2 0 ]
+[v _adc_res4 adc_res4 `us  1 e 2 0 ]
+[s S75 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E2558 1 channel 1 2 `E2573 1 AN_Bit 1 3 `E2589 1 TAD_Time 1 4 `E2602 1 FOSC_Clock 1 5 `uc 1 adc_voltage_reference 1 6 :1:0 
+`uc 1 adc_result_format 1 6 :1:1 
+`uc 1 adc_reserved 1 6 :6:2 
+]
+"26
+[v _adc_1 adc_1 `S75  1 e 7 0 ]
+"37
+[v _main main `(v  1 e 1 0 ]
+{
+"50
+} 0
+"52
+[v _initialization initialization `(v  1 e 1 0 ]
+{
+"54
+} 0
+"12 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/ADC/mcal_adc.c
+[v _ADC_Init ADC_Init `(uc  1 e 1 0 ]
+{
+[s S75 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E2558 1 channel 1 2 `E2573 1 AN_Bit 1 3 `E2589 1 TAD_Time 1 4 `E2602 1 FOSC_Clock 1 5 `uc 1 adc_voltage_reference 1 6 :1:0 
+`uc 1 adc_result_format 1 6 :1:1 
+`uc 1 adc_reserved 1 6 :6:2 
+]
+[v ADC_Init@_adc _adc `*.30CS75  1 p 1 15 ]
+"66
+} 0
+"237
+[v _adc_voltage_reference adc_voltage_reference `T(v  1 s 1 adc_voltage_reference ]
+{
+[s S75 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E2558 1 channel 1 2 `E2573 1 AN_Bit 1 3 `E2589 1 TAD_Time 1 4 `E2602 1 FOSC_Clock 1 5 `uc 1 adc_voltage_reference 1 6 :1:0 
+`uc 1 adc_result_format 1 6 :1:1 
+`uc 1 adc_reserved 1 6 :6:2 
+]
+[v adc_voltage_reference@_adc _adc `*.30CS75  1 p 1 12 ]
+"252
+} 0
+"254
+[v _adc_result_format adc_result_format `T(v  1 s 1 adc_result_format ]
+{
+[s S75 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E2558 1 channel 1 2 `E2573 1 AN_Bit 1 3 `E2589 1 TAD_Time 1 4 `E2602 1 FOSC_Clock 1 5 `uc 1 adc_voltage_reference 1 6 :1:0 
+`uc 1 adc_result_format 1 6 :1:1 
+`uc 1 adc_reserved 1 6 :6:2 
+]
+[v adc_result_format@_adc _adc `*.30CS75  1 p 1 12 ]
+"268
+} 0
+"161
+[v _ADC_StartConversionInterrupt ADC_StartConversionInterrupt `(uc  1 e 1 0 ]
+{
+[s S75 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E2558 1 channel 1 2 `E2573 1 AN_Bit 1 3 `E2589 1 TAD_Time 1 4 `E2602 1 FOSC_Clock 1 5 `uc 1 adc_voltage_reference 1 6 :1:0 
+`uc 1 adc_result_format 1 6 :1:1 
+`uc 1 adc_reserved 1 6 :6:2 
+]
+[v ADC_StartConversionInterrupt@_adc _adc `*.30CS75  1 p 1 15 ]
+[v ADC_StartConversionInterrupt@_channel _channel `E2558  1 p 1 16 ]
+"174
+} 0
+"176
+[v _adc_input_channel_port_configure adc_input_channel_port_configure `T(v  1 s 1 adc_input_channel_port_configure ]
+{
+[v adc_input_channel_port_configure@channel channel `E2558  1 a 1 wreg ]
+[v adc_input_channel_port_configure@channel channel `E2558  1 a 1 wreg ]
+[v adc_input_channel_port_configure@channel channel `E2558  1 a 1 14 ]
+"235
+} 0
+"94
+[v _ADC_StartConversion ADC_StartConversion `(uc  1 e 1 0 ]
+{
+[s S75 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E2558 1 channel 1 2 `E2573 1 AN_Bit 1 3 `E2589 1 TAD_Time 1 4 `E2602 1 FOSC_Clock 1 5 `uc 1 adc_voltage_reference 1 6 :1:0 
+`uc 1 adc_result_format 1 6 :1:1 
+`uc 1 adc_reserved 1 6 :6:2 
+]
+[v ADC_StartConversion@_adc _adc `*.30CS75  1 p 1 12 ]
+"104
+} 0
+"26 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/INTERRUPT/manage_interrupt.c
+[v _InterruptManagerHigh InterruptManagerHigh `IIH(v  1 e 1 0 ]
+{
+"33
+} 0
+"272 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/ADC/mcal_adc.c
+[v _ISR_ADC ISR_ADC `(v  1 e 1 0 ]
+{
+"277
+} 0
+"56 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\project.c
+[v _app_adc app_adc `(v  1 e 1 0 ]
+{
+"62
+} 0
+"143 D:\Embedded\Microcontroller\Projects\ADC_Driver\code\MCAL/ADC/mcal_adc.c
+[v _ADC_GetConversion_Blocking ADC_GetConversion_Blocking `(uc  1 e 1 0 ]
+{
+[s S75 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E2558 1 channel 1 2 `E2573 1 AN_Bit 1 3 `E2589 1 TAD_Time 1 4 `E2602 1 FOSC_Clock 1 5 `uc 1 adc_voltage_reference 1 6 :1:0 
+`uc 1 adc_result_format 1 6 :1:1 
+`uc 1 adc_reserved 1 6 :6:2 
+]
+[v ADC_GetConversion_Blocking@_adc _adc `*.30CS75  1 p 1 4 ]
+[v ADC_GetConversion_Blocking@_channel _channel `E2558  1 p 1 5 ]
+[v ADC_GetConversion_Blocking@conversion_result conversion_result `*.30us  1 p 1 6 ]
+"159
+} 0
+"176
+[v i2_adc_input_channel_port_configure adc_input_channel_port_configure `T(v  1 s 1 i2_adc_input_channel_port_configure ]
+{
+[v i2adc_input_channel_port_configure@channel channel `E2558  1 a 1 wreg ]
+[v i2adc_input_channel_port_configure@channel channel `E2558  1 a 1 wreg ]
+[v i2adc_input_channel_port_configure@channel channel `E2558  1 a 1 2 ]
+"235
+} 0
+"94
+[v i2_ADC_StartConversion ADC_StartConversion `(uc  1 e 1 0 ]
+{
+[s S75 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E2558 1 channel 1 2 `E2573 1 AN_Bit 1 3 `E2589 1 TAD_Time 1 4 `E2602 1 FOSC_Clock 1 5 `uc 1 adc_voltage_reference 1 6 :1:0 
+`uc 1 adc_result_format 1 6 :1:1 
+`uc 1 adc_reserved 1 6 :6:2 
+]
+[v i2ADC_StartConversion@_adc _adc `*.30CS75  1 p 1 0 ]
+"104
+} 0
+"119
+[v _ADC_GetConversionResult ADC_GetConversionResult `(uc  1 e 1 0 ]
+{
+[s S75 . 7 `*.37(v 1 ADC_InterruptHandler 2 0 `E2558 1 channel 1 2 `E2573 1 AN_Bit 1 3 `E2589 1 TAD_Time 1 4 `E2602 1 FOSC_Clock 1 5 `uc 1 adc_voltage_reference 1 6 :1:0 
+`uc 1 adc_result_format 1 6 :1:1 
+`uc 1 adc_reserved 1 6 :6:2 
+]
+[v ADC_GetConversionResult@_adc _adc `*.30CS75  1 p 1 0 ]
+[v ADC_GetConversionResult@conversion_result conversion_result `*.30us  1 p 1 1 ]
+"141
+} 0
